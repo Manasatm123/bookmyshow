@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: "font1";
+}
+
+
+/*main nav bar*/
+nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side {
+    margin-left: 15%;
+    display: flex;
+    gap: 20px;
+    background-color: rgb(247, 247, 247);
+    font-weight: 100;
+}
+
+.left-side input {
+    width: 450px;
+    vertical-align: initial;
+    outline: 0px;
+    border: 1px solid rgb(240, 236, 236);
+    border-radius: 7px;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.itms a {
+    text-decoration: none;
+    color: rgb(58, 59, 59);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.kochi {
+
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(26, 26, 26);
+    padding-right: 15px;
+    line-height: 19px;
+}
+
+.dropbtn .drop {
+    font-size: 20px;
+    color: rgb(122, 126, 126);
+}
+
+.signin {
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 68, 100);
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    width: 67px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid rgb(248, 68, 100);
+}
+
+
+.right-side {
+    margin-right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+/*second  sub navbar*/
+.secondnav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(245, 245, 245);
+}
+
+.sub-left-side {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 100;
+    margin-left: -90px;
+    color: rgb(58, 59, 59);
+}
+
+.sub-right-side {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 11px;
+    color: rgb(71, 71, 71);
+}
+
+/*Background img*/
+ 
+
+
+
+
+.mainside{
+    display: flex;
+    background-image: linear-gradient(90deg, rgb(26, 26, 26) 24.97%, rgb(26, 26, 26) 38.3%, rgba(26, 26, 26, 0.04) 97.47%, rgb(26, 26, 26) 100%),url(../movie.details.images/martin-et00328827-1677137256.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 475px;
+    width: 100vw;
+    
+}
+
+
+.main2{
+    width: 1200px;
+    height: 416px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.leftside{
+    display: flex;
+    gap: 40px;
+}
+
+h2{
+    color: white;
+    font-family: Roboto;
+    font-size: 36px;
+}
+
+.rating{
+    display: flex;
+    width: 400px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgb(51, 51, 51);;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+
+    
+}.rating button{
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    padding: 8px 12px;
+    
+    font-weight: 500;
+    
+
+}
+
+.lang{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    /* letter-spacing: 0.2px; */
+    background-color: white;
+    border-radius: 5px;
+    gap: 10px;
+} 
+
+.Tickets{
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(248, 68, 100);
+    color: white;
+    font-size: 20px;
+
+}
+
+.rating p{
+    padding-top: 7px;
+    padding-right: 80px;
+    font-size: 20px;
+}
+
+ .All{
+    margin: auto;
+}
+
+
+.about1{
+    font-size: 22px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin-left: 150px;
+}
+
+.cname{
+    font-size: 18px;
+    width: 1300px;
+    margin-left: 160px;
+}
+
